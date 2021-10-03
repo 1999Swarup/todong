@@ -16,46 +16,6 @@
      box-shadow: inset rgba(0, 0, 0, 0.2) 0 0 100px;
  }
  
- main {
-     width: 100%;
-     max-width: 600px;
-     margin: auto;
-     padding: 24px;
-     font-family: "Montserrat", sans-serif;
-     font-size: 18px;
-     line-height: 22px;
-     background: white;
-     border-radius: 8px;
-     box-shadow: rgba(0, 0, 0, 0.2) 0 20px 20px -12px;
- }
- 
- p {
-     font-size: 14px;
-     margin-bottom: 24px;
- }
- 
- form>div {
-     display: block;
-     margin-bottom: 24px;
- }
- 
- form>div input {
-     width: 100%;
-     margin-bottom: 6px;
- }
- 
- @media (min-width: 440px) {
-     form>div {
-         display: flex;
-     }
-     form>div input {
-         width: auto;
-         flex-grow: 2;
-         margin-right: 6px;
-         margin-bottom: 0;
-     }
- }
- 
  button {
      padding: 12px 20px;
      font-family: "Montserrat", sans-serif;
@@ -163,6 +123,52 @@
      justify-content: space-between;
  }
  
+ .all-complete {
+     color: #55a955
+ }
+ /*
+ 
+ main {
+     width: 100%;
+     max-width: 600px;
+     margin: auto;
+     padding: 24px;
+     font-family: "Montserrat", sans-serif;
+     font-size: 18px;
+     line-height: 22px;
+     background: white;
+     border-radius: 8px;
+     box-shadow: rgba(0, 0, 0, 0.2) 0 20px 20px -12px;
+ }
+ 
+ p {
+     font-size: 14px;
+     margin-bottom: 24px;
+ }
+ 
+ form>div {
+     display: block;
+     margin-bottom: 24px;
+ }
+ 
+ form>div input {
+     width: 100%;
+     margin-bottom: 6px;
+ }
+ 
+ @media (min-width: 440px) {
+     form>div {
+         display: flex;
+     }
+     form>div input {
+         width: auto;
+         flex-grow: 2;
+         margin-right: 6px;
+         margin-bottom: 0;
+     }
+ }
+ 
+ 
  .completed {
      text-decoration: line-through;
      color: #ccc;
@@ -260,6 +266,5 @@
  .fade span.ng-show {
      opacity: 1;
  }
- /*h6 {
-     text-decoration: line-through;
- }*/
+
+  */

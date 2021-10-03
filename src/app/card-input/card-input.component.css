@@ -16,19 +16,6 @@
      box-shadow: inset rgba(0, 0, 0, 0.2) 0 0 100px;
  }
  
- main {
-     width: 100%;
-     max-width: 600px;
-     margin: auto;
-     padding: 24px;
-     font-family: "Montserrat", sans-serif;
-     font-size: 18px;
-     line-height: 22px;
-     background: white;
-     border-radius: 8px;
-     box-shadow: rgba(0, 0, 0, 0.2) 0 20px 20px -12px;
- }
- 
  p {
      font-size: 14px;
      margin-bottom: 24px;
@@ -146,7 +133,38 @@
      opacity: 0;
      transform: translateX(12px);
  }
+ /*
  
+ main {
+     width: 100%;
+     max-width: 600px;
+     margin: auto;
+     padding: 24px;
+     font-family: "Montserrat", sans-serif;
+     font-size: 18px;
+     line-height: 22px;
+     background: white;
+     border-radius: 8px;
+     box-shadow: rgba(0, 0, 0, 0.2) 0 20px 20px -12px;
+ }
+ ul {
+     margin: 0 0 24px;
+     border-top: 1px solid #ededed;
+ }
+ 
+ ul li {
+     color: #3c763c;
+     position: relative;
+     padding: 16px 24px 16px 0;
+     background: white;
+     border-bottom: 1px solid #ededed;
+     transition: color 0.1s ease-out;
+ }
+ 
+ ul li span {
+     display: block;
+ }
+
  input[type=checkbox] {
      position: absolute;
      top: 0;
@@ -227,25 +245,7 @@
      border-bottom: 3px solid white;
      transform: rotate(45deg);
  }
- 
- ul {
-     margin: 0 0 24px;
-     border-top: 1px solid #ededed;
- }
- 
- ul li {
-     color: #3c763c;
-     position: relative;
-     padding: 16px 24px 16px 0;
-     background: white;
-     border-bottom: 1px solid #ededed;
-     transition: color 0.1s ease-out;
- }
- 
- ul li span {
-     display: block;
- }
- 
+
  .completed {
      text-decoration: line-through;
      color: #ccc;
@@ -339,3 +339,4 @@
  .fade span.ng-show {
      opacity: 1;
  }
+ */

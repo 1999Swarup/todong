@@ -1,0 +1,6 @@
+<form name="form" class="ng-pristine ng-invalid ng-invalid-required">
+    <div>
+        <input type="text" name="task" placeholder="Add a new task" #newTask required="required" class="ng-pristine ng-untouched ng-invalid ng-invalid-required">
+        <button type="button" (click)="clickMe(newTask.value) ">Add task</button>
+    </div>
+</form>

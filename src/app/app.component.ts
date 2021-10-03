@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todong';
+addTasktoCart(item:any){
+  this.cartItems.push(item)
+}
+  cartItems:any=[
+   
+
+  ]
 }

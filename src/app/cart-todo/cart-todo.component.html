@@ -1,9 +1,10 @@
 <ul>
     <!-- ngRepeat: task in tasks -->
     <li *ngFor="let item of cartItems;let i=index">
-        <span class="ng-binding">Task{{i+1}}: {{item}}
-        <input type="checkbox" (click)="itemtoRemove(i)" class="ng-pristine ng-untouched ng-valid" id="taskdone">
-        <label for="taskdone"></label>
+        <span class="ng-binding">
+        <!--<p class="strikethrough">Task{{i+1}}: {{item}}</p>-->
+        <label [ngClass]="{'task-done':one.checked}">Task{{i+1}}: {{item}}</label>
+        <input #one type="checkbox" (click)="itemtoRemove(i)">
         </span>
     </li>
 </ul>

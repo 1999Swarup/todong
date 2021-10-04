@@ -12,6 +12,7 @@ addTasktoCart(item:any){
 }
   cartItems:any=[
    
+    "This is a default task."
 
   ]
 }

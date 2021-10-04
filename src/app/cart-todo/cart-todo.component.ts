@@ -6,6 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./cart-todo.component.css']
 })
 export class CartTodoComponent implements OnInit {
+  
 @Input() cartItems:any={}
 taskList: Array<number> = []; 
   constructor() { }
@@ -42,6 +43,11 @@ this.taskList=[]
   }
 
 }
+
+
+
+
+
 
 //const element=document.getElementsByName('imp')[index]
   //const element = Array.from(document.getElementsByClassName('binding'))[index];
